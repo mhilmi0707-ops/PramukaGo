@@ -38,26 +38,38 @@ function profile(){
  </div>`;
 }
 
-function sejarah(){
+function sejarah(){ 
  const u=currentUser();
  document.getElementById('page').innerHTML=`
  <div class="section-title"><h2>⚜ Sejarah Pramuka</h2><button class="secondary" onclick="dashboard()">← Kembali</button></div>
  <div class="card">
- <h3>1. Akar Sejarah dan Hubungan dengan Madrasah (1968–1984)</h3>
- <p class="paragraph">Cikal bakal MAN 1 Tulungagung bermula pada tahun 1968 dari alih status Sekolah Persiapan Institut Agama Islam Singo Laksono (SP IAIS Singo Laksono) menjadi SP IAIN. Pada masa-masa awal ini, kegiatan kesiswaan termasuk kepanduan dilakukan dengan keterbatasan fasilitas, bahkan sempat meminjam gedung bekas sekolah CHTH di bawah naungan Kodim 0807 Tulungagung.</p>
  
- <h3>2. Pembentukan Pola Pembinaan Penegak</h3>
- <p class="paragraph">Sebagai satuan Pramuka Penegak (usia SMA/Madrasah Aliyah), Pramuka MAN 1 Tulungagung memisahkan pasukannya ke dalam sistem Ambalan. Fokus utama organisasi ARMANSA adalah mengintegrasikan nilai-nilai Trisatya dan Dasa Darma dengan nilai spiritual keislaman yang menjadi ciri khas madrasah.</p>
- <p class="paragraph">Sejak era 1980-an, pangkalan ini mengadopsi tradisi pengkaderan yang ketat dan sistematis untuk menyaring Dewan Ambalan melalui beberapa program rutin:
- • MOGD (Masa Orientasi Gugus Depan) / OPK: Dulu dikenal sebagai Masa Orientasi Tamu Ambalan, kegiatan ini menjadi gerbang sakral bagi siswa baru kelas X untuk beralih golongan dari Penggalang (MTs/SMP) menjadi Calon Penegak.
-• Bazar Penegak Pramuka: Sebuah tradisi tahunan pasca-MOGD yang melatih kemandirian dan jiwa entrepreneurship (kewirausahaan) sosial bagi para anggotanya.</p>
+ <h3>A. Sejarah Kepramukaan Dunia</h3>
+ <p class="paragraph"><b>1. Tokoh Pendiri:</b> Robert Stephenson Smyth Baden-Powell (dikenal sebagai Chief Scout of the World atau Bapak Pandu Sedunia) yang lahir di London pada 22 Februari 1857 dan wafat pada 8 Januari 1941.</p>
+ <p class="paragraph"><b>2. Latar Belakang:</b> Berawal dari pengalaman militernya (terutama saat Perang Boer dan pengepungan Mafeking 1899–1900 di Afrika Selatan), Baden-Powell melihat pentingnya melatih kemandirian, keterampilan lapangan, kedisiplinan, dan kerja sama bagi kaum muda.</p>
+ <p class="paragraph"><b>3. Perkemahan Pertama (1907):</b> Perkemahan percobaan diadakan pada 1–8 Agustus 1907 di Pulau Brownsea, Inggris, yang diikuti sekitar 20 anak laki-laki. Peristiwa ini menjadi tonggak lahirnya gerakan kepanduan dunia.</p>
+ <p class="paragraph"><b>4. Buku Scouting for Boys (1908):</b> Buku panduan yang ditulis oleh Baden-Powell yang memuat prinsip dasar kepanduan dan memicu penyebaran gerakan kepanduan secara cepat ke seluruh dunia.</p>
+ <p class="paragraph"><b>5. Jambore Dunia Pertama (1920):</b> Diselenggarakan di Olympia, London, Inggris, mempertemukan ribuan anggota kepanduan dari berbagai negara dan meneguhkan posisi Baden-Powell sebagai Bapak Pandu Sedunia.</p>
+ <p class="paragraph"><b>6. Organisasi Dunia:</b> Terbentuknya organisasi internasional, yang saat ini dikenal sebagai WOSM (World Organization of the Scout Movement), untuk mengoordinasikan gerakan kepanduan secara global.</p>
  
- <h3>3. Era Prestasi dan Pengakuan Regional</h3>
- <p class="paragraph">Seiring berjalannya waktu, pembinaan di bawah Majelis Pembimbing Gugus Depan (Kamabigus/Kepala Madrasah) berhasil membawa ARMANSA menjadi salah satu pangkalan penegak yang paling diperhitungkan di wilayah Tulungagung dan Provinsi Jawa Timur.</p>
- <p class="paragraph">Pramuka MAN 1 Tulungagung sering mencetak prestasi gemilang dalam kompetisi regional, seperti memborong belasan piala sekaligus di ajang SATRIA (Sarana Aksi Tegak Putri dan Putra) tingkat provinsi, serta menyabet gelar Juara Umum di berbagai perlombaan kedirgantaraan, pertendaan, PPGD, hingga pionering. Regenerasi kepemimpinan yang konsisten melalui Musyawarah Penegak (Mustegak) tahunan berhasil menjaga kelangsungan Gugus Depan ini hingga usianya yang telah berjalan hampir empat dekade.</p>
+ <h3>B. Sejarah Kepramukaan di Indonesia</h3>
+ <p class="paragraph"><b>1. Masa Penjajahan Belanda:</b> Kepanduan masuk ke Indonesia (dulu Hindia Belanda) melalui organisasi bentukan Belanda seperti NIPV (Nederlandsch-Indische Padvinders Vereeniging). Istilah kepanduan saat itu disebut padvinderij.</p>
+ <p class="paragraph"><b>2. Kepanduan Kebangsaan (Pribumi):</b> Tokoh dan pemuda Indonesia kemudian mendirikan organisasi mandiri untuk menanamkan nasionalisme, seperti:
+ • NPO (Nationale Padvinderij Organisatie) di Bandung (1912).
+ • JPO (Javaansche Padvinders Organisatie) di Surakarta (1916) oleh Mangkunegara VII.</p>
+ <p class="paragraph"><b>3. Peran dalam Pergerakan Nasional:</b> Kepanduan menjadi wadah penting pemuda untuk menumbuhkan rasa cinta tanah air, persatuan, dan berkontribusi menjelang Sumpah Pemuda (28 Oktober 1928).</p>
+ <p class="paragraph"><b>4. Masa Pendudukan Jepang:</b> Kegiatan kepanduan sempat dilarang dan dibatasi secara ketat oleh pemerintah militer Jepang.</p>
+ <p class="paragraph"><b>5. Masa Kemerdekaan & Tantangan:</b> Setelah Proklamasi 1945, lahir Pandu Rakyat Indonesia (PRI) (28 Desember 1945). Namun, pada 1950-an, muncul terlalu banyak organisasi kepanduan terpecah (seperti IPINDO, POPPINDO, PKPI, dan PERKINDO) sehingga sulit dikoordinasikan.</p>
+ 
+ <h3>C. Berdirinya Gerakan Pramuka Indonesia (1961)</h3>
+ <p class="paragraph"><b>1. Penyatuan Organisasi:</b> Pemerintah memandang perlu menyatukan puluhan organisasi kepanduan yang ada ke dalam satu wadah tunggal nasional demi efektivitas pendidikan karakter dan persatuan bangsa.</p>
+ <p class="paragraph"><b>2. Hari Tunas (9 Maret 1961):</b> Presiden Soekarno mengumpulkan tokoh-tokoh kepanduan untuk mencetuskan gagasan penyatuan kepanduan.</p>
+ <p class="paragraph"><b>3. Keputusan Presiden No. 238 Tahun 1961:</b> Diterbitkan pada 20 Mei 1961 (diperingati sebagai Hari Permulaan Tahun Kerja) yang resmi menetapkan Gerakan Pramuka sebagai satu-satunya organisasi kepanduan di Indonesia.</p>
+ <p class="paragraph"><b>4. Hari Pramuka (14 Agustus 1961):</b> Gerakan Pramuka diperkenalkan secara resmi kepada masyarakat ditandai dengan penyerahan Panji Gerakan Pramuka oleh Presiden Soekarno kepada Sri Sultan Hamengkubuwono IX. Tanggal ini diperingati setiap tahun sebagai Hari Pramuka.</p>
+ <p class="paragraph"><b>5. Bapak Pramuka Indonesia:</b> Sri Sultan Hamengkubuwono IX dianugerahi gelar sebagai Bapak Pramuka Indonesia atas jasanya dalam menyatukan dan mengembangkan Gerakan Pramuka.</p>
  
  </div>`;
-}
+} 
 
 function tokenCreateGame(){
 	const code=prompt('Masukkan token yang didapatkan dari administrator');
@@ -65,7 +77,7 @@ function tokenCreateGame(){
 }
 function showCreateGame(code){
 	const g=(code==='000012');
-	if(!g)return toast('Token  tidak sesuai, silahkan menghubung administrator.');
+	if(!g)return toast('Token  tidak sesuai, silahkan menghubung administratorgame tidak ditemukan.');
  document.getElementById('page').innerHTML=`
  <div class="section-title">
    <div>
